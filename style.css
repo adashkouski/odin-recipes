@@ -1,3 +1,33 @@
+body{
+    background-color: beige;
+}
+
+.h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#recipe-menu{
+   border:solid;
+   border-color:goldenrod;
+   background-color:wheat;
+   height:auto;
+}
+
+.table{
+    text-align:center;
+    display: block;
+}
+
+#horizontal-list li{
+    display:inline-block;
+    padding-right: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+
 img{
     width: 400px; 
     height: 300px;
