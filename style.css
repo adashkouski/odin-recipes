@@ -45,6 +45,12 @@ img{
     border: 5px double silver;
     border-radius: 50px;
 }
+img:hover{
+    opacity:0.8;
+}
+
+
+
 a:link{
     color:skyblue;
     text-decoration: none;
