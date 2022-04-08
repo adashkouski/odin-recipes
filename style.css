@@ -5,9 +5,9 @@ body{
 #main-header h1{
     color:goldenrod;
     font-size: 50px;
-    -webkit-text-stroke:2px black ;
+    -webkit-text-stroke:0.8px black ;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family:monospace;
     font-variant: small-caps;
     margin-top: 20px;
     margin-bottom:5px;
@@ -35,13 +35,15 @@ body{
 #horizontal-list li{
     display:inline-block;
     padding-right: 20px;
-    font-family:monospace;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(182, 133, 8);
+    margin-bottom: 20px;
 }
 img{
     width: 400px; 
     height: 300px;
     border: 5px double silver;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 a:link{
     color:skyblue;
@@ -50,6 +52,7 @@ a:link{
 
 a:visited{
     text-decoration:none;
+    color:unset;
 }
 
 a:hover {
