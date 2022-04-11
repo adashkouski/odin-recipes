@@ -39,16 +39,21 @@ body{
     color: rgb(182, 133, 8);
     margin-bottom: 20px;
 }
-img{
+.img-main{
     width: 400px; 
     height: 300px;
     border: 5px double silver;
     border-radius: 50px;
 }
-img:hover{
+.img-main:hover{
     opacity:0.8;
 }
-
+.img-outer{
+    width: 400px; 
+    height: 300px;
+    border: 5px double silver;
+    border-radius: 50px;
+}
 
 
 a:link{
