@@ -20,7 +20,7 @@ body{
 }
 .header{
     color:goldenrod;
-    background-color:blanchedalmond;
+    background-color:floralwhite;
     font-size:1.5em;
     text-align: center;
     font-family:monospace;
@@ -33,8 +33,26 @@ body{
     font-size:1.5em;
     text-align: center;
     font-family:monospace;
-    margin-top: 20px;
-    margin-bottom:5px;
+    margin-top:10px;
+}
+
+.steps{
+    color:darkgoldenrod;
+    display: block;
+    border: 2px solid goldenrod;
+    background-color:floralwhite;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+
+.ingredients{
+    color:darkgoldenrod;
+    display: block;
+    border: 2px solid goldenrod;
+    background-color:floralwhite;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 #recipe-menu{
@@ -49,8 +67,18 @@ body{
     text-align:center;
     display: block;
     border: 2px solid goldenrod;
-    background-color:blanchedalmond;
+    background-color:wheat;
     letter-spacing: 1px;
+}
+.table-main{
+    color:darkgoldenrod;
+    text-align:center;
+    display: block;
+    border: 2px solid goldenrod;
+    background-color:floralwhite;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 #horizontal-list li{
