@@ -17,7 +17,16 @@ body{
     background-position:center;
     border: 6px solid goldenrod;
     background-size:cover;
-
+}
+.header{
+    color:goldenrod;
+    background-color:wheat;
+    font-size:1.5em;
+    text-align: center;
+    font-family:monospace;
+    margin-top: 20px;
+    margin-bottom:5px;
+    border: 2px solid goldenrod;
 }
 
 #recipe-menu{
