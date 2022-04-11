@@ -20,13 +20,21 @@ body{
 }
 .header{
     color:goldenrod;
-    background-color:wheat;
+    background-color:blanchedalmond;
     font-size:1.5em;
     text-align: center;
     font-family:monospace;
     margin-top: 20px;
     margin-bottom:5px;
     border: 2px solid goldenrod;
+}
+.h2{
+    color:goldenrod;
+    font-size:1.5em;
+    text-align: center;
+    font-family:monospace;
+    margin-top: 20px;
+    margin-bottom:5px;
 }
 
 #recipe-menu{
@@ -37,8 +45,12 @@ body{
 }
 
 .table{
+    color:goldenrod;
     text-align:center;
     display: block;
+    border: 2px solid goldenrod;
+    background-color:blanchedalmond;
+    letter-spacing: 1px;
 }
 
 #horizontal-list li{
