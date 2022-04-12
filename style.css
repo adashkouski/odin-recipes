@@ -99,10 +99,15 @@ body{
     opacity:0.8;
 }
 .img-outer{
-    width: 400px; 
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:auto; 
     height: 300px;
-    border: 5px double silver;
+    border: 5px solid goldenrod;
     border-radius: 50px;
+    
 }
 
 
