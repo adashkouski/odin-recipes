@@ -95,10 +95,14 @@ body{
     border: 5px double silver;
     border-radius: 50px;
 }
-.img-main:hover{
-    opacity:0.8;
+
+.background{
+    background-image:url(../odin-recipes/images/background1.jpg), url(../odin-recipes/images/background1.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 20%, 80%;
 }
-.img-outer{
+
+.background img{
     display: block;
     margin: auto;
     margin-top: 10px;
@@ -107,7 +111,6 @@ body{
     height: 300px;
     border: 5px solid goldenrod;
     border-radius: 50px;
-    
 }
 
 
